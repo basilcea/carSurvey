@@ -3,7 +3,7 @@
 ## Running this program
 
 ```bash
- git clone  
+ git clone  ~https://github.com/basilcea/carSurvey.git~
  npm install
  mpm start
  
@@ -12,8 +12,8 @@
  ## Routes
 
  ``` 
- - ```\`` : Route to Survey
- - ```\statistics```: Route to Result Summary
+ - ~\~ : Route to Survey
+ - ~\statistics~: Route to Result Summary
   
  ```
 
