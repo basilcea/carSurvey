@@ -3,7 +3,7 @@
 ## Running this program
 
 ```bash
- git clone  ~~https://github.com/basilcea/carSurvey.git~~
+ git clone  ~ https://github.com/basilcea/carSurvey.git ~
  - Run npm install
  - Run npm start
  
