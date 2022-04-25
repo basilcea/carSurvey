@@ -13,7 +13,7 @@ cd into the cloned folder
  
  ## Routes
  
- This project runs in development mode on ```localhost:3000``
+ This project runs in development mode on ```localhost:3000```
   
  - ```\``` : Route to Survey
  - ```\statistics```: Route to Result Summary
