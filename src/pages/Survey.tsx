@@ -16,13 +16,12 @@ const Survey = () => {
   const { age, gender, license, firstCar, carMake, carModel, numberOfCars } =
     formData;
   const {
-    currentQuestion,
+    currentQuestion: { question, name, inputType, schema},
     questionNumber,
     prevQuestion,
     nextQuestion,
     lastQuestion,
   } = questions;
-  const { question, name, inputType, schema } = currentQuestion;
   const [onClick, setOnClick] = useState<MouseEventHandler<HTMLElement>>();
 
   const onChange = (e: any) => {
@@ -146,7 +145,7 @@ const Survey = () => {
               to="/statistics"
             >
               {" "}
-              Results Summary
+              Results
             </StyledLink>
           </Navigator>
         </QuestionContainer>
