@@ -3,9 +3,9 @@
 ## Running this program
 
 ```bash
- git clone  ~https://github.com/basilcea/carSurvey.git~
- npm install
- mpm start
+ git clone  ~~https://github.com/basilcea/carSurvey.git~~
+ - Run npm install
+ - Run npm start
  
  ```
 
